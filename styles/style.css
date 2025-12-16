@@ -1,3 +1,5 @@
+/* Шапка */
+
 .header {
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -42,4 +44,86 @@
 
 .header_address-list_no-underline {
     text-decoration: none;
+}
+
+/* Обложка страницы (входная секция) */
+
+.cover {
+    position: relative;
+    min-height: 757px;
+    background-image: url('/images/cover.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.cover__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115%;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.aligned-text {
+    display: block;
+}
+
+.aligned-text_left {
+    padding-left: 50px;
+    padding-top: 165px;
+}
+
+.aligned-text_center {
+    text-align: center;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.aligned-text_right {
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 106px;
+}
+
+.cover__description-text {
+    font-weight: 400;
+    line-height: 28px;
+    word-spacing: 20px;
+}
+
+.letter-spacing-extended {
+    letter-spacing: 1.1em;
+}
+
+.bet-button {
+    padding: 0;
+    box-sizing: inherit;
+    font-weight: 500;
+    color: inherit;
+    text-transform: inherit;
+    background-color: transparent;
+    border: 1px solid #fff;
+    width: 256px;
+    height: 51px;
 }
