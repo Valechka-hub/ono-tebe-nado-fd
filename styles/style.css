@@ -123,7 +123,6 @@
 
 .cover__description-text {
   font-weight: 400;
-  line-height: 28px;
   word-spacing: 20px;
 }
 
@@ -177,8 +176,12 @@
   min-height: 596px;
 }
 
-.card__title {
+.card__title,
+.card__text {
   line-height: 120%;
+}
+
+.card__title {
   font-weight: 700;
   font-size: 22px;
   text-transform: uppercase;
@@ -187,7 +190,6 @@
 }
 
 .card__text {
-  line-height: 120%;
   font-weight: 400;
   font-size: 20px;
 }
