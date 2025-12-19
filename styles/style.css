@@ -57,19 +57,19 @@
 
 .overlay {
   position: absolute;
+  inset: 0;
   z-index: 1;
   width: 100%;
   height: 100%;
-  inset: 0;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
 .cover,
 .card {
   position: relative;
-  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
 }
 
 .cover__title,
@@ -81,12 +81,12 @@
 }
 
 .cover__title {
+  color: #fff;
   font-weight: 700;
   font-size: 100px;
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  color: #fff;
 }
 
 .aligned-text {
@@ -94,31 +94,31 @@
 }
 
 .aligned-text_left {
-  padding-left: 50px;
   padding-top: 165px;
+  padding-left: 50px;
 }
 
 .aligned-text_center {
-  text-align: center;
-  padding-left: 30px;
   padding-top: 20px;
+  padding-left: 30px;
+  text-align: center;
 }
 
 .aligned-text_right {
-  text-align: right;
-  padding-right: 20px;
   padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
 }
 
 .cover__description {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 106px;
+  color: #fff;
   font-size: 22px;
   line-height: 28px;
   text-transform: uppercase;
-  color: #fff;
-  margin-top: 106px;
 }
 
 .cover__description-text {
@@ -131,15 +131,15 @@
 }
 
 .bet-button {
-  padding: 0;
   box-sizing: inherit;
-  font-weight: 500;
-  color: inherit;
-  text-transform: inherit;
-  background-color: transparent;
-  border: 1px solid #fff;
   width: 256px;
   height: 51px;
+  border: 1px solid #fff;
+  padding: 0;
+  color: inherit;
+  font-weight: 500;
+  text-transform: inherit;
+  background-color: transparent;
 }
 
 /* Секция с карточками */
@@ -155,8 +155,8 @@
 }
 
 .lots__heading {
-  margin-left: 40px;
   margin-bottom: 27px;
+  margin-left: 40px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
@@ -166,14 +166,14 @@
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  list-style: none;
   color: #fff;
+  list-style: none;
 }
 
 .lots__card-list-item {
-  text-decoration: none;
   width: 334px;
   min-height: 596px;
+  text-decoration: none;
 }
 
 .card__title,
@@ -184,9 +184,9 @@
 .card__title {
   font-weight: 700;
   font-size: 22px;
-  text-transform: uppercase;
   text-decoration: underline;
   text-decoration-skip-ink: none;
+  text-transform: uppercase;
 }
 
 .card__text {
@@ -220,13 +220,13 @@
 
 .lots__look-more-link {
   display: inline-block;
+  margin-top: 30px;
+  margin-left: 40px;
   font-weight: 400;
   font-size: 20px;
   text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-position: under;
-  margin-top: 30px;
-  margin-left: 40px;
 }
 
 /* Секция "Об аукционе" */
@@ -235,21 +235,21 @@
   display: grid;
   grid-template-columns: 334px auto;
   justify-items: center;
+  gap: 50px;
   margin: auto;
   margin-top: 120px;
-  gap: 50px;
 }
 
 .about__logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  border-radius: 50%;
   width: 240px;
   height: 240px;
   margin-top: 35px;
   margin-left: 47px;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .about__logo-image {
@@ -258,22 +258,22 @@
 }
 
 .about__title {
-  font-weight: 700;
-  font-size: 40px;
-  text-transform: uppercase;
   margin-top: 133px;
   margin-bottom: 100px;
   padding-top: 3px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .about__text {
   display: flex;
   flex-direction: column;
   gap: 24px;
+  padding-right: 5px;
   font-weight: 400;
   font-size: 20px;
   line-height: 120%;
-  padding-right: 5px;
 }
 
 /* Подвал */
@@ -281,11 +281,11 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  font-weight: 400;
-  font-size: 18px;
-  color: #000;
   margin-top: 180px;
   padding: 1px 50px 0;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
   text-underline-position: under;
 }
 
@@ -312,9 +312,9 @@
 }
 
 .footer__social-list {
-  justify-self: end;
   display: flex;
   flex-direction: row;
+  justify-self: end;
   gap: 48px;
 }
 
