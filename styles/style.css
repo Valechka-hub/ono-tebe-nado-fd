@@ -286,6 +286,7 @@
   color: #000;
   margin-top: 180px;
   padding: 1px 50px 0;
+  text-underline-position: under;
 }
 
 .footer__address {
@@ -299,7 +300,6 @@
 
 .footer__menu {
   text-align: center;
-  text-underline-position: under;
 }
 
 .footer__menu-list,
