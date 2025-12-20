@@ -40,12 +40,7 @@
   justify-self: end;
 }
 
-.header_address-list {
-  list-style: none;
-}
-
 .header__link_active,
-.header_address-list_no-underline,
 .card-link {
   text-decoration: none;
 }
