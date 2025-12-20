@@ -44,7 +44,9 @@
   list-style: none;
 }
 
-.header_address-list_no-underline {
+.header__link_active,
+.header_address-list_no-underline,
+.card-link {
   text-decoration: none;
 }
 
@@ -216,7 +218,6 @@
   display: inline-block;
   margin-top: 30px;
   margin-left: 40px;
-  text-decoration: underline;
   text-decoration-skip-ink: none;
   text-underline-position: under;
 }
