@@ -58,7 +58,7 @@
 .overlay {
   position: absolute;
   inset: 0;
-  z-index: 1;
+  z-index: -1;
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.6);
@@ -67,17 +67,10 @@
 .cover,
 .card {
   position: relative;
+  z-index: 1;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
-
-.cover__title,
-.cover__description,
-.card__text,
-.card__title {
-  position: relative;
-  z-index: 2;
 }
 
 .cover__title {
